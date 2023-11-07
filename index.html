@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game</title>
+    <link rel="stylesheet" href="style/style.css">
+    <link type="Image/x-icon" href="img/favicon.ico" rel="icon">
+</head>
+<body>
+  <h1 class="title">Memory game</h1>
+    <div class="play-area">
+      
+    <div class="card" data-character="mickey">
+        <img class="front" src="img/1.jpg" alt="img">
+        <img class="back" src="img/back.jpg" alt="back">
+      </div>
+    <div class="card" data-character="chip">
+        <img class="front" src="img/2.jpg" alt="img">
+        <img class="back" src="img/back.jpg" alt="back">
+      </div>
+    <div class="card" data-character="timon">
+        <img class="front" src="img/3.jpg" alt="img">
+        <img class="back" src="img/back.jpg" alt="back">
+      </div>
+   
+    <div class="card" data-character="dumbo">
+        <img class="front" src="img/4.jpg" alt="img">
+        <img class="back" src="img/back.jpg" alt="back">
+      </div>
+    <div class="card" data-character="simba">
+        <img class="front" src="img/5.jpg" alt="img">
+        <img class="back" src="img/back.jpg" alt="back">
+      </div>
+    <div class="card" data-character="pikachu">
+        <img class="front" src="img/6.jpg" alt="img">
+        <img class="back" src="img/back.jpg" alt="back">
+      </div> 
+      <div class="card" data-character="mickey">
+        <img class="front" src="img/1.jpg" alt="img">
+        <img class="back" src="img/back.jpg" alt="back">
+      </div>
+    <div class="card" data-character="chip">
+        <img class="front" src="img/2.jpg" alt="img">
+        <img class="back" src="img/back.jpg" alt="back">
+      </div>
+    <div class="card" data-character="timon">
+        <img class="front" src="img/3.jpg" alt="img">
+        <img class="back" src="img/back.jpg" alt="back">
+      </div>
+   
+    <div class="card" data-character="dumbo">
+        <img class="front" src="img/4.jpg" alt="img">
+        <img class="back" src="img/back.jpg" alt="back">
+      </div>
+    <div class="card" data-character="simba">
+        <img class="front" src="img/5.jpg" alt="img">
+        <img class="back" src="img/back.jpg" alt="back">
+      </div>
+    <div class="card" data-character="pikachu">
+        <img class="front" src="img/6.jpg" alt="img">
+        <img class="back" src="img/back.jpg" alt="back">
+      </div> 
+    </div>
+    
+</body>
+
+<footer class="footer">
+    <div>
+    <p class="year">2023г</p>
+    </div>
+    <div>
+        <a class="a-rs-school" href="https://rs.school/js-stage0/"><img class="rs-school" src="img/rs_school_js.png"></a>
+    </div>
+    <div class="img-github">
+        <a class="a-github" href="https://github.com/kris-home"><img class="github" src="img/github.png"></a>
+    </div>
+        </footer>
+        <div class="modal-finish">
+             <form class="finish">
+              <div>
+                <h2 class="finish-title">Поздравляем! Конец игры</h2>
+<div class="finish-text">Ваш результат <span id="data"></span></div>
+              </div>
+          <input class="input-finish" type="text" name="name" placeholder="Введите ваше имя" autocomplete="off" required>
+          
+          <input class="button-finish" type="submit" value="Сохранить результат">
+          </form> 
+        </div>
+        <div class="modal-result">
+          <form class="result-form">
+            <h2 class="finish-title">Результаты</h2>
+            <ul class="item-result">
+            </ul>
+            <input class="button-finish" type="submit" value="Начать новую игру">
+       </form> 
+     </div>
+<script src="script/script.js"></script>
+</html>
